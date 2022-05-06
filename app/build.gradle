@@ -51,12 +51,12 @@ dependencies {
     implementation("androidx.navigation:navigation-ui-ktx:2.4.2")
 
     //new material design
-    implementation('com.google.android.material.material:1.7.0-alpha01')
+    implementation('com.google.android.material:material:1.7.0-alpha01')
 
-    implementation 'androidx.preference.preference-ktx:1.2.0'
+    implementation 'androidx.preference:preference-ktx:1.2.0'
 
     //viewModel and livedata
-    implementation 'androidx.lifecycle.lifecycle-extensions:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
 
     //retrifit for api
     implementation 'com.squareup.retrofit2:retrofit:2.6.2'
