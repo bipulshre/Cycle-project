@@ -12,23 +12,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App.Starting">
         <activity
+            android:name=".dashboard.DashboardActivity"
+            android:theme="@style/Theme.CycleProject"
+            android:exported="true" />
+        <activity
             android:name=".auth.AuthActivity"
-            android:theme="@style/Theme.App.Starting"
-            android:exported="true" >
-
+            android:exported="true"
+            android:theme="@style/Theme.App.Starting">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.App.Starting">
-
-        </activity>
+            android:theme="@style/Theme.CycleProject"></activity>
     </application>
 
 </manifest>
